@@ -39,6 +39,41 @@ AutoCloud-Organizer is a Python-powered automation tool that streamlines cloud s
 
 ---
 
+## 🔑 Google Cloud Setup (Acquiring cre.json)
+To enable the automation engine, you must configure a Google Cloud Project and generate an OAuth 2.0 Desktop Client key.
+
+1. Project Initialization
+Navigate to the Google Cloud Console.
+
+Create a New Project named CloudBridge-Ops.
+
+Go to APIs & Services > Library, search for Google Drive API, and click Enable.
+
+2. Configure OAuth Consent
+Go to APIs & Services > OAuth consent screen.
+
+Select External and fill in the required App Name and Support Email.
+
+Crucial Scope: Under "Scopes," manually add https://www.googleapis.com/auth/drive.file. This ensures the app follows the Principle of Least Privilege.
+
+Add your own email under Test Users to allow development access.
+
+3. Generate Credentials
+Go to APIs & Services > Credentials.
+
+Click Create Credentials > OAuth client ID.
+
+Select Application type: Desktop App and click Create.
+
+Download the JSON file and move it to the root of this project.
+
+Rename the file to cre.json to match the application's source code.
+
+[!CAUTION]
+Security Warning: The cre.json contains your private client secret. Never commit this file to GitHub. Ensure your .gitignore is active before pushing.
+
+---
+
 ## ⚙️ Setup & Installation
 1. **Clone the Repo:**
    ```bash
