@@ -6,7 +6,9 @@ AutoCloud-Organizer is a Python-powered automation tool that streamlines cloud s
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Security: Least Privilege](https://img.shields.io/badge/Security-Least%20Privilege-green.svg)](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
 
-##DEMO:
+---
+
+## DEMO:
 
 
 ![autodrive](https://github.com/user-attachments/assets/7ec74087-6f58-4d47-bda2-7b0520bbcd4b)
